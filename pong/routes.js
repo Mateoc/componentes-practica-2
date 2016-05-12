@@ -8,9 +8,7 @@ var errors = require('./components/errors');
 module.exports = function (app) {
 
     // Insert routes below
-    app.use('/api/v1/auth', require('./api/auth'));
-    app.use('/api/v1/user', require('./api/user'));
-    //  app.use('/api/v1/user', require('./api/user'));
+    app.use('/api/v1/pong', require('./adapters/restApi/pong'));
 
 
     // All undefined asset or api routes should return a 404
