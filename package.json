@@ -1,0 +1,14 @@
+{
+  "name": "rabitmq-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/scripts/app.ts",
+  "devDependencies": {},
+  "dependencies": {
+    "amqplib": "^0.4.1",
+    "body-parser": "1.14.1",
+    "compression": "^1.6.1",
+    "express": "^4.13.3",
+    "lodash": "^4.12.0"
+  }
+}
