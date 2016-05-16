@@ -1,3 +1,5 @@
+This repo is composed of two simple apps (ping and pong) made in node, that comunicate asynchronously using amqp (I'm using rabbimq).
+
 ## Install
  In the root of the project run
  ``
@@ -5,6 +7,8 @@
  ``
 
 ## Run the project
+
+Make sure rabbitmq is runing.
 
  In the root of the project run
 
